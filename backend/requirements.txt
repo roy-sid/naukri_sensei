@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pdfplumber
+python-docx
+python-multipart
+sentence-transformers
+numpy
+groq
+httpx
+language-tool-python
+python-dotenv

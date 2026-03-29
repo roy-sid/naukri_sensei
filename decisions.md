@@ -1,0 +1,9 @@
+- Parser: pdfplumber for PDF, python-docx for DOCX
+- Chunking: section-based for resumes (not fixed size)
+- Embeddings: Sentence-BERT via HuggingFace
+- LLM: Groq API, llama3-8b-8192
+- Temperature: 0 for scoring/analysis, 0.7 for creative rewriting
+- Job search: JSearch API or user pastes JD
+- No LangChain: too abstracted, can't explain internals
+- No vector DB: single resume use case, in-memory is fine
+- Scoring: start 100, fatal -15, quality -6
